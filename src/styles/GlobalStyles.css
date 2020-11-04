@@ -6,14 +6,11 @@
 
 body{
     height: 100%;
+    width: 100%;
     padding: 0 auto;
     margin: 0 auto;
     background-color: #03071e;
 
-}
-
-a {
-    padding: 10px;
 }
 
 a, p, li {
@@ -23,8 +20,9 @@ a, p, li {
 }
 
 .logoContent {
-    border-radius: 20%;
+    border-radius: 10%;
     box-shadow: 2px 2px 3px 4px #03071e;
+    padding: 0;
 }
 
 h1, h2, h3 {

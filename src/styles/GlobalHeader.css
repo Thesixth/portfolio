@@ -1,6 +1,6 @@
 header {
     background-color: #003049;
-    width: 90vw;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -12,11 +12,11 @@ header {
 }
 
 header nav {
-    width: auto;
+    width: 90vw;
     
 }
 
-header ul {
+Header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;

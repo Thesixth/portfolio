@@ -13,7 +13,7 @@ const Portfolio = () => {
                 <h1>Portfolio</h1>
                 <div className='individualSectionContainer'>
                     <section className="project-scope">
-                        <p>I enjoy planning and developing client-side interfaces/applications. I also want to understand and master backend web development. With this application, I used firebase to feed my backend curiosity.</p>
+                        <p>I enjoy planning and developing client-side interfaces/applications. I also want to understand and master backend web development. With this application I used firebase to feed my backend curiosity, this has lead me to MongoDB</p>
                     </section>
                     <section>
                         <img className="individualPageImg" src={contactForm} alt=""/>
