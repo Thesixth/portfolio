@@ -1,0 +1,50 @@
+footer {
+    background-color: #042f46;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+}
+
+footer section {
+    align-content: center;
+}
+
+footer ul {
+    display: grid;
+    padding: 5px;
+
+}
+
+footer a {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.fa-linkedin, .fa-github {
+    display: block;
+    width: auto;
+    padding: 10px;
+}
+
+footer a {
+    list-style: none;
+}
+
+
+@media screen and (min-width: 500px) {
+    footer {
+        height: auto;
+        padding: 25px;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    footer {
+        display: flex;
+        padding: 25px;
+        justify-content: space-evenly;
+    }
+}

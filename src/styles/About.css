@@ -1,0 +1,45 @@
+body {
+    height: 100%;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+
+
+.intro {
+    margin: 0 auto;
+    align-content: center;
+    display: block;
+    text-align: center;
+}
+
+.introImage {
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+
+}
+
+.sectionTitle, .formTitle {
+    padding-top: 20px;
+}
+
+Form {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.success-msg {
+    color: #57a773;
+    padding: 10px 15px;
+}
+
+.err-msg {
+    color: #ee6352;
+    padding: 10px 15px;
+}
+
+em {
+    display: block;
+    font-weight: 900;
+}

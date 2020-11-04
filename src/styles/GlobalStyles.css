@@ -1,0 +1,48 @@
+*
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+    background-color: #03071e;
+
+}
+
+a {
+    padding: 10px;
+}
+
+a, p, li {
+    font-size: 1.2rem;
+    width: auto;
+
+}
+
+.logoContent {
+    border-radius: 20%;
+    box-shadow: 2px 2px 3px 4px #03071e;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+h1, h2, p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+li, a {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+h2, h1, button, a, p, span, li, form {
+    color: #fdffb6;
+    text-decoration: none;
+    list-style: none;
+}
+
+

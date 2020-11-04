@@ -1,0 +1,79 @@
+header {
+    background-color: #003049;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.alignLeft {
+     grid-area: left;
+    }
+.alignRight {
+    grid-area: right;
+}
+
+header nav {
+    width: auto;
+    
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+header li, header a {
+    color: #fdffb6;
+    font-size: 1.18rem;
+    display: inline-block;
+    padding: 10px;
+    align-self: center;
+    text-align: center;
+    
+}
+
+li a img {
+    padding-left: 0;
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+    color: burlywood;
+}
+
+@keyframes fadeBetween { 
+    75% {background-color: rgb(37, 6, 37);}
+    100% {background-color: rgb(10, 10, 65);}
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    animation: fadeBetween 3s infinite;
+} 
+
+#container {
+    overflow:hidden;
+    position:relative;
+}
+.disappear {
+    -webkit-animation: cssAnimation 5s forwards; 
+    animation: cssAnimation 5s forwards;
+    animation-delay: 500ms;
+}
+@keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}

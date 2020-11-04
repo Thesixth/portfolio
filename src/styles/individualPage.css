@@ -1,0 +1,29 @@
+.individualMain {
+    display: grid;
+    text-align: center;
+    height: auto;
+    
+}
+
+.individualPageImg {
+    max-height: 20rem;
+    max-width: 20rem;
+    padding: 1.5rem;
+    box-shadow: 3px 3px 5px 6px #0f1d6b;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.project-scope {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.live {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10%;
+    background-color: #007bff;
+}
