@@ -19,10 +19,10 @@ function Home() {
        <GlobalHeader />
        <main>
                 <section className="mainInfo">
-                    <p>Hello, I am a Front-End developer currently based in Vancouver.
+                    <p>Hello, I am a Front-End Developer currently based in Vancouver.
                     </p>
                     <span className="lineBreak">. . .</span>
-                    <h2 id="work">WORKS</h2>
+                    <h2 id="work">My Work</h2>
                     <span className="lineBreak">. . .</span>
                     
                 </section>

@@ -13,6 +13,11 @@ const Footer = () => {
             </section>
 
             <section>
+                <p> &copy; Emmanuel Pali 2020</p>
+                <p><Link to="/">Home</Link></p>
+            </section>
+            
+            <section>
                 <h2>Ouick Links</h2>
                  <ul>
                      <li>
@@ -25,11 +30,6 @@ const Footer = () => {
                         <Link to="/portfolio">Portfolio</Link>
                      </li>
                  </ul>
-            </section>
-
-            <section>
-                <p> &copy; Emmanuel Pali 2020</p>
-                <p><Link to="/#work">My work</Link></p>
             </section>
            
         </footer>

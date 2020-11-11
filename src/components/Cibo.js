@@ -24,7 +24,7 @@ const Cibo = () => {
                         <h2>Resources and Tools Used</h2>
                         <p>We used Github, SASS, JavaScript, Photoshop and Adobe XD </p>
                     </section>
-                    <a href="https://www.paliemmanuel.com/cibo-delizioso" className="live" >Live Site</a>
+                    <a href="https://www.paliemmanuel.com/cibo-delizioso"  className="live" target="_blank" rel="noopener noreferrer">Visit the Live Site</a>
                 </div>
             </div>
             <Footer />

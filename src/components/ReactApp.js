@@ -24,7 +24,7 @@ const ReactApp = () => {
                         <h2>Resources and Tools Used</h2>
                         <p className="project-scope">Photoshop, React App, The Movie Database API, Local storage and global hooks </p>
                     </section>
-                    <a href="https://www.paliemmanuel.com/movie-search" className="live" >Live Site</a>
+                    <a href="https://www.paliemmanuel.com/movie-search" className="live" target="_blank" rel="noopener noreferrer">Visit the Live Site</a>
                 </div>
             </div>
             <Footer />

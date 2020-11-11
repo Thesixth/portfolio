@@ -6,10 +6,14 @@
 
 body {
     margin: 0 auto;
+    min-height: 100vh;
 }
 
 main {
-    height: auto;
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .mainInfo {
@@ -29,6 +33,7 @@ section {
 
 .lineBreak {
     display: block;
+    padding-bottom: 30px;
 }
 
 .thumbnails {
@@ -41,8 +46,7 @@ section {
 
 .imagewrapper {
     position: relative;
-    height: 100%;
-    width: 100%;
+    
 }
 
 .showonHover {
@@ -64,7 +68,7 @@ section {
 .showonHover li {
     display: block;
     width: 100%;
-    font-size: 1.0rem;
+    font-size: 1rem;
     text-align: center;
     padding: 10px;
 }
@@ -76,12 +80,12 @@ section {
 
 .imagewrapper:active  .showonHover{
     visibility: visible;
-    opacity: 90;
+    opacity: 0.9;
 }
 
 .imagewrapper:focus  .showonHover{
     visibility: visible;
-    opacity: 1;
+    opacity: 0.9;
 }
 
 
@@ -99,7 +103,7 @@ section {
     display: grid;
     background-color: #003049;
     height: 100%;
-    min-height: 500px;
+    min-height: 200px;
     width: 90vw;
     grid-row: 1fr;
     grid-column: 1fr;
@@ -140,10 +144,9 @@ section {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: " Right Center left";
         grid-gap: 10px;
-        min-height: 300px;
         width: 90vw;
-        padding: 0 auto;
-        margin: 0 auto;
+        margin-bottom: 50px;
+        padding-top: 10px;
         
        
     }
@@ -161,21 +164,29 @@ section {
 
     .forSectionLeft {
         grid-area: Center;
+        max-height: 400px;
+        max-width: 400px;
+        justify-self: center;
     }
     
     .mainCenter {
         grid-area: Right;
+        max-height: 400px;
+        max-width: 400px;
+        justify-self: center;
     }
     
     .mainRight {
         grid-area: left;
+        max-height: 400px;
+        max-width: 400px;
+        justify-self: center;
     }
 
 }
 
 @media screen and (min-width: 700px) {
     .MaindisplayGrid {
-        min-height: 300px;
-        width: 90vw;
+       padding-bottom: 20px; 
     }
 }
