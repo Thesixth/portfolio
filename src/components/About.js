@@ -108,7 +108,7 @@ class About extends React.Component {
                         Send
                         </Button>
 
-                        {this.state.emailSent === true && <p className="d-inline success-msg">Hey!, I will be in touch soon</p>}
+                        {this.state.emailSent === true && <p className="d-inline success-msg">Sent</p>}
                         {this.state.emailSent === false && <p className="d-inline err-msg">Message Not Sent</p>}
                 </Form>
                 <Footer />
