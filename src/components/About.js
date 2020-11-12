@@ -78,14 +78,14 @@ class About extends React.Component {
                 </header>
                 <section className="intro">
                     <h2 className="sectionTitle sectionTitleIntro">
-                        Hello!! <em>Emmanuel Pali</em>    
+                        I am <em>Emmanuel Pali</em>    
                     </h2>
                     <p className="sectionSubtitle">Front-End Developer</p>
                     <img className="introImage" src={pali} alt="Emmanuel Pali smiling" />
                     <h2 className="sectionTitle">Tools</h2>
                     <p className="project-scope"><i class="fab fa-html5"></i> | <i class="fab fa-css3"></i> | <i class="fab fa-js"></i> | <i class="fab fa-node"></i> | <i class="fab fa-react"></i> | <i class="fab fa-wordpress"></i>
                     <span className="lineBreak">. . .</span>
-                    Hardwork and dedication pays, but I strongly believe that working in a multicultural environment brings out the best in us. Currently open to working and collaborating with developers or firms .<br /> Away from my computer, I am an Amateur Athlete, a  Fictional Writer and an avid dancer. Curious and eager to learn. 
+                    Hardwork and dedication pays, but I strongly believe that working in a multicultural environment brings out the best in us. Currently open to working and collaborating with developers or firms .<br /> Away from my computer, I am an amateur athlete, a  fictional writer and an avid dancer. Curious and eager to learn. 
                     </p>
                 </section>
 
