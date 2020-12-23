@@ -5,8 +5,10 @@
 }
 
 body{
+    min-height: 100vh;
     height: 100%;
     width: 100%;
+    max-width: 1920px;
     padding: 0 auto;
     margin: 0 auto;
     background-color: #03071e;
@@ -19,11 +21,11 @@ a, p, li {
 
 }
 
-.logoContent {
-    border-radius: 10%;
-    box-shadow: 2px 2px 3px 4px #03071e;
-    padding: 0;
+.logoContent a{
+    padding: 5px;
+    border-bottom: 1px solid white;
 }
+
 
 h1, h2, h3 {
     margin: 0;

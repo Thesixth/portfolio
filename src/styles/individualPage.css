@@ -9,7 +9,7 @@
     max-height: 20rem;
     max-width: 20rem;
     padding: 1.5rem;
-    box-shadow: 3px 3px 5px 6px #0f1d6b;
+    box-shadow: 3px 3px 5px 6px #042f46;
     object-fit: contain;
     cursor: pointer;
 }
@@ -22,8 +22,6 @@
 }
 
 .live {
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: #007bff;
 }

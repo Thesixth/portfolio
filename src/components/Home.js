@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import emmanuel from '../images/emmanuel-pali.png';
+import Doctor from '../images/doctor-x.jpg';
 import cibo from '../images/cibo.png';
 import movie from '../images/movie.png';
 import Footer from './Footer';
@@ -19,11 +19,13 @@ function Home() {
        <GlobalHeader />
        <main>
                 <section className="mainInfo">
-                    <p>Hello, I am a Front-End developer currently based in Vancouver.
-                    </p>
-                    <span className="lineBreak">. . .</span>
-                    <h2 id="work">WORKS</h2>
-                    <span className="lineBreak">. . .</span>
+                    <h1>
+                        Hello! welcome to my site.
+                    </h1>
+                    <p className="lineBreak">. . .</p>
+                    <h2>
+                      My Projects 
+                    </h2>
                     
                 </section>
             <div className="MaindisplayGrid">
@@ -64,18 +66,18 @@ function Home() {
                     </Link>
                 </section>
                 <section onMouseOver={changeBackground}  className="forSectionLeft">
-                    <Link to="/portfolio">
+                    <Link to="/doctorX">
                         <h2>
-                            Portfolio
+                            Doctor X
                         </h2>
                         <div className="imagewrapper">
-                            <img className="thumbnails" src={emmanuel} alt="Screenshot of the application"/>
+                            <img className="thumbnails" src={Doctor} alt="Screenshot of the application"/>
                             <div className="showonHover">
                                 <ul>
-                                    <li>React App</li>
-                                    <li>Firebase</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
                                     <li>Photoshop</li>
-                                    <li>Bootstrap</li>
+                                    <li>JavaScript</li>
                                 </ul>
                             </div>
                         </div>

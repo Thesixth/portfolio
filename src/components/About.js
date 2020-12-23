@@ -85,7 +85,8 @@ class About extends React.Component {
                     <h2 className="sectionTitle">Tools</h2>
                     <p className="project-scope"><i class="fab fa-html5"></i> | <i class="fab fa-css3"></i> | <i class="fab fa-js"></i> | <i class="fab fa-node"></i> | <i class="fab fa-react"></i> | <i class="fab fa-wordpress"></i>
                     <span className="lineBreak">. . .</span>
-                    Hardwork and dedication pays, but I strongly believe that working in a multicultural environment brings out the best in us. Currently open to working and collaborating with developers or firms .<br /> Away from my computer, I am an amateur athlete, a  fictional writer and an avid dancer. Curious and eager to learn. 
+                    There is a level of joy one gets from creating something from nothing and having the whole world Love it. The feeling can only be likened to having a billion dollars. I don't have a billion dollars, meaning it's a feeling I can't begin to explain.<br />
+                    I enjoy running, it keeps me fit plus I get to eat whatever I like. Another reason why I run, food!!!!, I love it!.<br /> It is my belief that working in a multicultural environment brings out the best in us. Currently open to working and collaborating with developers and firms.
                     </p>
                 </section>
 

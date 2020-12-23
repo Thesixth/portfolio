@@ -11,7 +11,7 @@ const GlobalHeader = () => {
                 <ul id="container">
                     <li>
                         <Link to="/" className="logoContent">
-                        <img className="logo" src={emmanuel} alt=""></img>
+                        <img className="logo" src={emmanuel} alt="Emmanuel's logo"></img>
                         </Link>
                     </li>
                     <li className="disappear">

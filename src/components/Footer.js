@@ -22,14 +22,14 @@ const Footer = () => {
                          <Link to="/cibo-delizioso">Cibo Delizioso</Link>
                      </li>
                      <li>
-                        <Link to="/portfolio">Portfolio</Link>
+                        <Link to="/doctorX">Doctor X</Link>
                      </li>
                  </ul>
             </section>
 
             <section>
                 <p> &copy; Emmanuel Pali 2020</p>
-                <p><Link to="/#work">My work</Link></p>
+                <p><Link to="/">Home</Link></p>
             </section>
            
         </footer>

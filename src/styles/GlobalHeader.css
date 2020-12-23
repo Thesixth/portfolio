@@ -1,7 +1,6 @@
 header {
-    background-color: #003049;
-    width: 100%;
     margin: 0 auto;
+    background-color: #042f46;
 }
 
 .alignLeft {
@@ -12,7 +11,7 @@ header {
 }
 
 header nav {
-    width: 90vw;
+    width: 100%;
     
 }
 
@@ -29,9 +28,9 @@ Header ul {
 
 header li, header a {
     color: #eef3f8;
-    font-size: 16px;
+    font-size: 1.1rem;
+    padding: 5px;
     display: inline-block;
-    padding: 10px;
     align-self: center;
     text-align: center;
     
@@ -44,7 +43,6 @@ li a img {
 .logo {
     width: 5rem;
     height: 5rem;
-    color: burlywood;
 }
 
 @keyframes fadeBetween { 
@@ -65,7 +63,7 @@ li a img {
 .disappear {
     -webkit-animation: cssAnimation 5s forwards; 
     animation: cssAnimation 5s forwards;
-    animation-delay: 500ms;
+    animation-delay: 2000ms;
 }
 @keyframes cssAnimation {
     0%   {opacity: 1;}
@@ -80,6 +78,7 @@ li a img {
 
 @media screen and (min-width: 500px) {
     header li, header a {
-        font-size: 20px;
+        font-size: 1.5rem;
+        padding: 20px;
     }
 }
